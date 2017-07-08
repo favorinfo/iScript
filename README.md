@@ -1,25 +1,25 @@
-## iScript
+## tools
 
 > *[L]* *[W]* *[LW]* 分别表示，在linux, windows, linux和windows 下通过测试。
 
-> ***windows用户可在babun (https://github.com/babun/babun) 下运行。***
+> ***windows用户可在[babun](https://github.com/babun/babun) 下运行。***
 
-        |         |         |
---------|---------|---------|
-*[L]* | [xiami.py](#xiami.py)                                           | 下载或播放高品质虾米音乐(xiami.com) |
-*[L]* | [pan.baidu.com.py](#pan.baidu.com.py)                           | 百度网盘的下载、离线下载、上传、播放、转存、文件操作 |
-*[L]* | [bt.py](#bt.py)                                                 | magnet torrent 互转、及 过滤敏.感.词 |
-*[L]* | [115.py](#115.py)                                               | 115网盘的下载和播放 |
-*[L]* | [yunpan.360.cn.py](#yunpan.360.cn.py)                           | 360网盘的下载 |
-*[L]* | [music.baidu.com.py](#music.baidu.com.py)                       | 下载或播放高品质百度音乐(music.baidu.com) |
-*[L]* | [music.163.com.py](#music.163.com.py)                           | 下载或播放高品质网易音乐(music.163.com) |
-*[L]* | [flvxz_cl.py](#flvxz_cl.py)                                     | flvxz.com 视频解析 client - 支持下载、播放 |
-*[L]* | [tumblr.py](#tumblr.py)                                         | 下载某个tumblr.com的所有图片 |
-*[L]* | [unzip.py](#unzip.py)                                           | 解决linux下unzip乱码的问题 |
-*[L]* | [ed2k_search.py](#ed2k_search.py)                               | 基于 donkey4u.com 的emule搜索 |
-*[L]* | [91porn.py](#91porn.py)                                         | 下载或播放91porn |
-*[L]* | [ThunderLixianExporter.user.js](#ThunderLixianExporter.user.js) | A fork of https://github.com/binux/ThunderLixianExporter - 增加了mpv和mplayer的导出。 |
-    | 待续                                                            |         |
+|        |         |         |
+|--------|---------|---------|
+|*[L]* | [xiami.py](#xiami.py)                                           | 下载或播放高品质虾米音乐(xiami.com) |
+|*[L]* | [pan.baidu.com.py](#pan.baidu.com.py)                           | |百度网盘的下载、离线下载、上传、播放、转存、文件操作 |
+|*[L]* | [bt.py](#bt.py)                                                 | magnet torrent 互转、及 |过滤敏.感.词 |
+|*[L]* | [115.py](#115.py)                                               | 115网盘的下载和播放 |
+|*[L]* | [yunpan.360.cn.py](#yunpan.360.cn.py)                           | 360网盘的下载 |
+|*[L]* | [music.baidu.com.py](#music.baidu.com.py)                       | 下载或播放高品质百度音乐(music.baidu.com) |
+|*[L]* | [music.163.com.py](#music.163.com.py)                           | 下载或播放高品质网易音乐(music.163.com) |
+|*[L]* | [flvxz_cl.py](#flvxz_cl.py)                                     | flvxz.com 视频解析 client - |支持下载、播放 |
+|*[L]* | [tumblr.py](#tumblr.py)                                         | 下载某个tumblr.com的所有图片 |
+|*[L]* | [unzip.py](#unzip.py)                                           | 解决linux下unzip乱码的问题 |
+|*[L]* | [ed2k_search.py](#ed2k_search.py)                               | 基于 donkey4u.com 的emule搜索 |
+|*[L]* | [91porn.py](#91porn.py)                                         | 下载或播放91porn |
+|*[L]* | [ThunderLixianExporter.user.js](#ThunderLixianExporter.user.js) | A fork of https://github.com/binux/ThunderLixianExporter - 增加了mpv和mplayer的导出。 |
+|    | 待续                                                            |         |
 
 ---
 
@@ -1129,11 +1129,10 @@ flvxz.com 视频解析
 
 #### 支持的网站:
 
-"""
+```
 已知支持120个以上视频网站，覆盖大多数国内视频站点，少量国外视频站点
-                                                      """
                                                -- flvxz.com
-
+```
 关于播放操作:
 
 > 在运行脚本的终端，输入1次Enter，关闭当前播放并播放下一个文件，连续输入2次Enter，关闭当前播放并退出。
@@ -1320,3 +1319,5 @@ pn -u url
 增加了mpv和mplayer的导出。
 
 用法见: https://github.com/binux/ThunderLixianExporter
+
+
